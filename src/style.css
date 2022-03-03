@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_inner{
+    height: 600px;
+    width: 500px;
+    background-color: cadetblue;
+    margin-top: 100px;
+    position: relative;
+}
+.main_inner h2{
+    text-align: center;
+    padding: 20px 0;
+    background-color: tomato;
+    color: #fff;
+}
+.form_inn{
+    margin-top: 50px;
+    text-align: center;
+}
+.form_inn input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px 50px 50px 10px;
+    -webkit-border-radius: 10px 50px 50px 10px;
+    -moz-border-radius: 10px 50px 50px 10px;
+    -ms-border-radius: 10px 50px 50px 10px;
+    -o-border-radius: 10px 50px 50px 10px;
+    padding: 0 10px;
+    background-color: wheat;
+    border: none;
+}
+.form_inn input:focus{
+    color: none;
+}
+.form_inn input::placeholder{
+    font-family: sans-serif;
+}
+.button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 117px;
+    right: 40px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: green;
+}
+.todoist {
+    background-color: #fff;
+    padding: 10px 0;
+    color: #222;
+    margin: 5px 40px;
+}
+.todoist .icon{
+    margin-right: 10px;
+}
+.remove{
+    padding: 10px 20px;
+    background-color: tan;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+}
